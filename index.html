@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跟團遊覽車專用 ‧ 雙商圈全步行導覽網頁</title>
+    <style>
+        :root {
+            --primary: #0056b3;
+            --secondary: #e67e22;
+            --success: #28a745;
+            --dark: #2c3e50;
+            --bg: #f4f6f9;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #113060, #1d4d8c);
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .alert-bus {
+            background-color: #d1ecf1;
+            color: #0c5460;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            border-left: 5px solid #17a2b8;
+            font-weight: bold;
+        }
+        .weather-box {
+            background: white;
+            border-radius: 12px;
+            padding: 1.2rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-left: 5px solid var(--secondary);
+        }
+        .section-title {
+            font-size: 1.4rem;
+            color: #113060;
+            border-bottom: 3px solid #113060;
+            padding-bottom: 0.4rem;
+            margin-top: 2.5rem;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            margin-bottom: 1.2rem;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border: 1px solid #e1e8ed;
+        }
+        .card-content {
+            padding: 1.2rem;
+        }
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 0 0 0.5rem 0;
+            color: var(--primary);
+        }
+        .tag {
+            display: inline-block;
+            background: #e1f5fe;
+            color: #0288d1;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-bottom: 0.6rem;
+        }
+        .tag-food {
+            background: #fff3e0;
+            color: #ef6c00;
+        }
+        .btn-nav {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--success);
+            color: white;
+            text-decoration: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-top: 0.8rem;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🚌 遊覽車下車即開逛！雙商圈全步行網頁</h1>
+    <p>針對團客優化：無須交通工具，雙腳步行 1-10 分鐘完美吃逛指南</p>
+</header>
+
+<div class="container">
+
+    <div class="alert-bus">
+        📢 團員出發前備忘：請先在群組或跟導遊確認遊覽車預計的「停靠地點」與「集合時間」，以下景點均以停靠點為中心，步行即可輕鬆往返！
+    </div>
+
+    <!-- 即時天氣 -->
+    <div class="weather-box">
+        <h3>🌤️ 5/19 當前天氣觀測與攜帶裝備</h3>
+        <p><strong>台東市（鐵花村）：</strong> 26°C 多雲。夜風稍大，步行體感舒適。因遊覽車冷氣較強，建議隨身攜帶薄外套。</p>
+        <p><strong>墾丁大街：</strong> 26°C~29°C 溫熱。五月為夏季交替期，夜間無遮蔽物。建議穿著透氣排汗衣物、短褲、防滑慢跑鞋，並隨身攜帶水瓶。</p>
+    </div>
+
+    <!-- 區域一：台東鐵花村 -->
+    <div class="section-title">📍 第一站：台東鐵花村文創商圈（下車走路就到）</div>
+    <p style="font-size: 0.95rem; color: #555;">※ 遊覽車通常停靠於「台東轉運站大客車停車場」或「新生路/博愛路口」，下車後即進入商圈，完全不需走遠。</p>
+
+    <div class="card">
+        <div class="card-content">
+            <span class="tag">步行 1 分鐘</span>
+            <div class="card-title">鐵花村音樂聚落慢市集</div>
+            <p>一下車就能看到的成排彩繪熱氣球燈籠！這裡有在地手作文創小攤、小農特產。週三至週日晚間直接在草地上席地而坐，就能聽見最動人的在地原住民歌手駐唱，氛圍極其放鬆。</p>
+            <a href="https://maps.google.com/?cid=11953694422132767247" target="_blank" class="btn-nav">🗺️ 手機導航 ‧ 一鍵步行至慢市集</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-content">
+            <span class="tag">步行 2 分鐘</span>
+            <div class="card-title">TTstyle 原創館（波浪屋）</div>
+            <p>緊鄰慢市集，是由數個大貨櫃與黑白馬賽克波浪屋頂結合的搶眼地標。裡面聚集了多間極具質感的原住民特色工藝品店、特色手作店與風味咖啡館，十分適合一邊拍照、一邊淘寶。</p>
+            <a href="https://maps.google.com/?cid=17997645883246315895" target="_blank" class="btn-nav">🗺️ 手機導航 ‧ 一鍵步行至波浪屋</a>
+        </div>
+    </div>
+
+
+    <!-- 區域二：墾丁大街與海鮮（完全取代後壁湖，大街直接走去吃） -->
+    <div class="section-title">📍 第二站：墾丁大街夜市與「免搭車」海鮮大餐</div>
+    <p style="font-size: 0.95rem; color: #555;">※ 遊覽車跟團通常停靠於「墾丁牌樓旁大客車停車場」或各飯店門口。以下景點與全台連鎖/爆評海鮮餐廳，均位於墾丁大街主幹道上，沿著馬路兩側步行即可到達，絕不脫隊！</p>
+
+    <div class="card">
+        <div class="card-content">
+            <span class="tag tag-food">大街上 ‧ 高評分海鮮餐廳</span>
+            <div class="card-title">巷子內海鮮熱炒</div>
+            <p><strong>【必吃理由】</strong> 不用去後壁湖！這家隱藏在墾丁大街巷弄內（路口有指標）的海鮮餐廳，在網路上擁有 4.6 顆星超高評價。主打平價透明、大份量熱炒與新鮮海產。推薦菜色：生魚片、炒倒退嚕（在地蟬蝦）、情人的眼淚（雨來菇）。建議跟團員湊一桌吃最划算！</p>
+            <a href="https://maps.google.com/?cid=16629827194878815075" target="_blank" class="btn-nav">🗺️ 手機導航 ‧ 大街步行至「巷子內海鮮」</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-content">
+            <span class="tag tag-food">大街起點 ‧ 恆春名店分店</span>
+            <div class="card-title">恆春陳海鮮餐廳（墾丁店）</div>
+            <p><strong>【必吃理由】</strong> 同樣位於墾丁大街精華路段上。將恆春鎮上的老字號海鮮精緻化帶進大街，環境乾淨有冷氣，各式活海鮮現點現撈，生魚片厚度與鮮度極佳，大客車停靠後直接走進去吃非常方便。</p>
+            <a href="https://maps.google.com/?cid=4368907443997380139" target="_blank" class="btn-nav">🗺️ 手機導航 ‧ 大街步行至「陳海鮮餐廳」</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-content">
+            <span class="tag">下車直達 ‧ 主幹道</span>
+            <div class="card-title">墾丁大街 / 墾丁夜市（主幹道）</div>
+            <p>全長約 1 公里的步行美食天堂。沿路全是熱帶調酒吧、泰式奶茶、炸鮮奶、現烤山豬肉等街頭攤販。吃完上述的海鮮熱炒後，可以直接沿著這條大街邊走邊吃散步回遊覽車集合點，動線一條鞭最省時。</p>
+            <a href="https://maps.google.com/?cid=2598961247929379560" target="_blank" class="btn-nav">🗺️ 手機導航 ‧ 一鍵定位墾丁大街</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
