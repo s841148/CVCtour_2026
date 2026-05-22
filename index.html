@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【墾丁大街晚餐自理】高CP值、平價好口碑美食地圖</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, 'Microsoft JhengHei', sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            background-color: #fffaf0; /* 溫暖沙灘感底色 */
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 14px;
+            box-shadow: 0 6px 20px rgba(221, 107, 32, 0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 3px solid #ff7849;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #d946ef;
+            color: #c53030;
+            margin: 0 0 10px 0;
+            font-size: 28px;
+        }
+        .subtitle {
+            color: #4a5568;
+            font-size: 16px;
+            margin: 0;
+        }
+        h2 {
+            color: #dd6b20;
+            border-left: 5px solid #dd6b20;
+            padding-left: 12px;
+            font-size: 22px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        .night-market-box {
+            background-color: #fff5f5;
+            border: 2px dashed #e53e3e;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .nav-btn {
+            display: inline-block;
+            background-color: #e53e3e;
+            color: #ffffff !important;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 15px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: background-color 0.2s;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        }
+        .nav-btn:hover {
+            background-color: #c53030;
+        }
+        .card-btn {
+            display: inline-block;
+            background-color: #3182ce;
+            color: #ffffff !important;
+            padding: 5px 12px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: bold;
+            float: right;
+        }
+        .card-btn:hover {
+            background-color: #2b6cb0;
+        }
+        .food-grid {
+            margin-top: 20px;
+        }
+        .food-card {
+            border: 1px solid #feebc8;
+            padding: 22px;
+            border-radius: 10px;
+            background-color: #fffaf0;
+            margin-bottom: 20px;
+            overflow: hidden; /* 清除浮動 */
+        }
+        .food-card h3 {
+            margin-top: 0;
+            color: #2d3748;
+            font-size: 19px;
+            border-bottom: 1px solid #fbd38d;
+            padding-bottom: 8px;
+            margin-bottom: 12px;
+        }
+        .rating {
+            color: #ecc94b;
+            font-weight: bold;
+            font-size: 15px;
+            margin-left: 8px;
+        }
+        .price-tag {
+            background-color: #feebc8;
+            color: #c05621;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: bold;
+            margin-left: 8px;
+        }
+        .tip-box {
+            background-color: #f7fafc;
+            border-left: 4px solid #4a5568;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #e53e3e;
+        }
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+                padding: 20px;
+            }
+            .card-btn {
+                float: none;
+                display: block;
+                text-align: center;
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🌴 墾丁大街晚餐自理特輯</h1>
+        <p class="subtitle">【今晚限定】便宜、高評價、不踩雷高CP值美食精選</p>
+    </header>
+
+    <div class="night-market-box">
+        <strong style="font-size: 19px; color: #c53030; display: block; margin-bottom: 5px;">🔥 今晚目標：墾丁大街夜市（週五黃金夜）</strong>
+        <p style="margin: 5px 0 15px 0; color: #4a5568;">入住夏都沙灘酒店後，步行即可抵達熱鬧的大街攤位！週五晚上攤商超齊全！</p>
+        <a href="https://www.google.com/maps/search/?api=1&query=%E5%A2%BE%E4%B8%81%E5%A4%9C%E5%B8%82" target="_blank" class="nav-btn">📍 開啟 Google Maps 導航至墾丁夜市</a>
+    </div>
+
+    <h2>🏆 便宜又獲好評的街頭小吃 / 披薩推薦</h2>
+    <p style="color: #718096; margin-top: -10px; margin-bottom: 25px;">（以下皆為明碼標價、透明計費，絕無墾丁天價疑慮，團員請安心開吃）</p>
+
+    <div class="food-grid">
+
+        <div class="food-card">
+            <h3>
+                <span>🥟 墾丁蕭記脆皮湯包</span>
+                <span class="rating">★ 4.0</span>
+                <span class="price-tag">約 $60 - $80 / 份</span>
+                <a href="https://www.google.com/maps/search/?api=1&query=%E5%A2%BE%E4%B8%81%E8%95%AD%E8%A8%98%E8%84%86%E7%9A%AE%E6%B9%AF%E5%8C%85" target="_blank" class="card-btn">📍 導航</a>
+            </h3>
+            <p><strong>大師推薦：</strong> 墾丁大街上的排隊超級人氣王！有別於一般水煮湯包，這間是將小籠湯包放在鐵板上煎得底部金黃酥脆。咬下去會瘋狂爆汁（吃的時候千萬要小心燙嘴！），推薦點「招牌蒜味」，便宜又能快速獲得滿足感！</p>
+        </div>
+
+        <div class="food-card">
+            <h3>
+                <span>🌭 墾丁飛魚卵打洞香腸</span>
+                <span class="rating">★ 3.9</span>
+                <span class="price-tag">約 $40 - $50 / 支</span>
+                <a href="https://www.google.com/maps/search/?api=1&query=%E5%A2%BE%E4%B8%81%E9%A3%9B%E9%AD%9A%E5%8D%B5%E6%89%93%E6%B4%9E%E9%A6%99%E8%85%B8" target="_blank" class="card-btn">📍 導航</a>
+            </h3>
+            <p><strong>大師推薦：</strong> 散步銅板美食代表！老闆發揮創意在香腸上「打洞」，不僅讓油脂逼出、外皮更焦脆，還能讓高粱酒等特製醬汁完美入味。推薦必點「飛魚卵口味」，咀嚼時飛魚卵在嘴裡啵啵作響，便宜又超級下酒！</p>
+        </div>
+
+        <div class="food-card">
+            <h3>
+                <span>🍕 紅磚窯手工窯烤 Pizza</span>
+                <span class="rating">★ 4.5</span>
+                <span class="price-tag">約 $200 - $350 / 10吋</span>
+                <a href="https://www.google.com/maps/search/?api=1&query=%E7%B4%85%E7%A3%9A%E7%AF%AF%E6%89%8B%E5%B7%A5%E7%AA%AF%E7%83%A4pizza" target="_blank" class="card-btn">📍 導航</a>
+            </h3>
+            <p><strong>大師推薦：</strong> 位於墾丁大街末端（靠近青年活動中心）的發財車攤位，在 Google 上擁有高達 4.5 的罕見高分！現場可以看到店員現點現揉麵團、現進窯爐烘烤。提供 10 吋的大披薩，非常適合跟同事幾個人合買一份，平均下來一個人不用百元就能享受到超高水準的晚餐！</p>
+        </div>
+
+        <div class="food-card">
+            <h3>
+                <span>🍕 波波手工窯烤披薩</span>
+                <span class="rating">★ 4.2</span>
+                <span class="price-tag">約 $250 - $350 / 份</span>
+                <a href="https://www.google.com/maps/search/?api=1&query=%E6%B3%A2%E6%B3%A2%E7%AA%AF%E7%83%A4%E6%89%8B%E5%B7%A5%E6%8A%AB%E8%96%A9" target="_blank" class="card-btn">📍 導航</a>
+            </h3>
+            <p><strong>大師推薦：</strong> 這間是你們<span class="highlight">旅遊手冊上特別畫出來標記的名店</span>！同樣主打現烤手工披薩，餅皮屬於義式薄脆型，香氣誘人、材料給得很豐富。如果不想在街上邊走邊吃，強烈建議跟同事合買幾份，外帶直接回夏都酒店的沙灘上或陽台配啤酒，吹海風大口吃，CP 值與度假感直接拉滿！</p>
+        </div>
+
+    </div>
+
+    <div class="tip-box">
+        <strong style="font-size: 16px; color: #2d3748; display: block; margin-bottom: 8px;">💡 旅遊規劃大師的「防雷省錢」小撇步：</strong>
+        墾丁大街上有些著名的「東山鴨頭」、「滷味店」或「海鮮炸物攤」，因為部分點餐方式採用「秤重」或時價計費，如果不小心失手夾太多，結帳時很容易出現動輒兩三百元起跳的驚人價格。<br><br>
+        如果想要控制預算、吃得飽又不花冤枉錢，<span class="highlight">強烈建議主攻上述這種「明碼標價、價格固定」的特色小吃、湯包或大份量披薩</span>，保證既省荷包又能吃得非常過癮喔！
+    </div>
+</div>
+
+</body>
+</html>
